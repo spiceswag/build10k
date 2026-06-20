@@ -1,6 +1,6 @@
 { lib, inputs, ... }:
 {
-  boot.kernel.enable = false;
+  boot.isContainer = true;
 
   nix = {
     settings.experimental-features = [

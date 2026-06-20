@@ -13,7 +13,10 @@
 
   users.users.builder = {
     isSystemUser = true;
+    group = "builder";
   };
+
+  users.groups.builder = { };
 
   users.mutableUsers = false;
 
