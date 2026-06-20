@@ -11,7 +11,7 @@
       nixosConfigurations."build10k" = nixpkgs.lib.nixosSystem {
         modules = [
           ./src/system.nix
-          ./src/user.nix
+          ./src/users.nix
           {
             nixpkgs.hostPlatform = "x86_64-linux";
             networking.hostName = "build10k";
